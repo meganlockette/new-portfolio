@@ -1,0 +1,107 @@
+body {
+    background-image: url(../images/oaklandTree.jpg);
+    background-size: cover;
+}
+#card {
+    text-align: center;
+    width: 960px;
+    margin: 0px auto;
+}
+
+#logo {
+    font-family: Calibri;
+    font-size: larger;
+}
+
+#connect {
+    padding: 20px;
+}
+
+.outline {
+    border: 2px solid #dddddd;
+    
+}
+
+.box {
+    background: white; 
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+.name {
+    
+    font-family: Calibri; color: #4aaa52;
+    font-size: large;
+}
+
+.section {
+    width: 960px;
+    margin: 0px auto;
+}
+
+.heading {
+    font-family: Calibri; color: #4aaa52;
+    background-color: #ffffff
+    
+}
+
+.content {
+    font-family: Calibri; color: black;
+    padding: 20px;
+    
+
+}
+
+.img {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    padding: 2px;
+}
+
+.footer {
+    background-color: white;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif; color:black;
+}
+
+/* get help with media queries*/
+
+@media only screen and (max-width: 980px){
+     .section{
+         max-width: 768px;
+         padding: 0 20px;
+     }
+     .body {
+        max-width: 420px;
+     }
+}
+
+@media only screen and (max-width: 768px){
+    .section{
+        max-width: 100%;
+    }
+    .body {
+       max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .section{
+       max-width: 100%;
+    }
+    .body {
+        max-width: 100%;
+    }
+}
+
+
+
